@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+
+.margin-top-27vh {
+  margin-top: 27vh;
+}
+
 .navWrapper {
   background-color: none;
   width: 200px;
@@ -36,32 +47,31 @@
   width: 100%;
   min-height: 500px;
   margin-top: 27vh;
-  background-color: #2b3f49;
 }
 
 .introTitle {
-  width: 100%;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
   color: red;
+  line-height: 40px;
 }
 
 .introName {
-  width: 100%;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 100px;
   font-weight: bold;
   color: white;
+  line-height: 110px;
 }
 
 .introDescription {
-  width: 100%;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 70px;
   color: #b8bdd4;
+  line-height: 80px;
 }
 
 .introInformationContainer {
@@ -70,17 +80,18 @@
 }
 
 .introText {
-  width: 50%;
+  margin-top: 50px;
+  margin-left: -15px;
   text-align: left;
   font-family: "Source Code Pro", monospace;
-  font-size: 16px;
+  font-size: 15px;
   color: #a0a0a0;
 }
 
 .introButtonContainer {
-  margin-top: 50px;
-  width: 100%;
   text-align: left;
+  margin-left: -15px;
+  margin-top: 50px;
 }
 
 .introButton {

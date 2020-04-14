@@ -1,25 +1,31 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const introduction = () => {
   return (
-    <div className="sectionWrapper">
-      <div className="introTitle">The name is</div>
-      <div className="introName">Anson Kwan.</div>
-      <div className="introDescription">I like complicated things.</div>
-      <div className="introInformationContainer">
-        <div className="introText">
-          <p>
-            A web development enthusiast, explorer of frameworks and design.
-            Believer of JavaScript being a real programming language. Currently
-            spending time on sharpening my data structures and algorithms
-            knowledge.
-          </p>
-        </div>
-        <div className="introButtonContainer">
+    <Container className="margin-top-27vh">
+      <Row>
+        <Col>
+          <Row className="introTitle">The name is</Row>
+          <Row className="introName">Anson Kwan.</Row>
+          <Row className="introDescription">I like coding things.</Row>
+        </Col>
+      </Row>
+      <Row lg={2} sm={1} md={1} xs={1}>
+        <Col className="introText">
+          A web development enthusiast, explorer of frameworks and design.
+          Believer of JavaScript being a real programming language. Currently
+          spending time on sharpening my data structures and algorithms
+          knowledge.
+        </Col>
+        <Col></Col>
+      </Row>
+      <Row>
+        <Col className="introButtonContainer">
           <button className="introButton">Wanna Chat?</button>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

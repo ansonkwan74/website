@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.navWrapper {
+  background-color: red;
+  width: 200px;
+  height: 400px;
+  margin-left: 50vw;
+  position: fixed;
+  margin-top: 27vh;
+}
+
+.heroWrapper {
+  min-height: 100vh;
+  width: 50vw;
+  min-width: 50%;
+  display: inline-block;
+  background-color: #2b3f49;
+}
+
+.sectionWrapper {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 27vh;
+  background-color: white;
+}
+
+.introTitle {
+  width: 100%;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+}
+
+.introName {
+  width: 100%;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.introDescription {
+  width: 100%;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 70px;
+}
+
+.introInformationContainer {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.introText {
+  width: 50%;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+}
+
+.introButtonContainer {
+  margin-top: 50px;
+  width: 100%;
+  text-align: left;
+}
+
+.introButton {
+  text-decoration: none;
+  border: none;
+  background-color: #2b3f49;
+  color: white;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  border: 2px solid;
+  border-color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 150px;
+}

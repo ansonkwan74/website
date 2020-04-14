@@ -4,7 +4,7 @@
   background-color: none;
   width: 200px;
   height: 400px;
-  margin-left: 900px;
+  margin-left: 55vw;
   position: fixed;
   margin-top: 27vh;
   border: 2px solid;
@@ -24,13 +24,9 @@
   margin-top: 24px;
 }
 
-.navButton:hover {
-  color: #b8bdd4;
-}
-
 .heroWrapper {
   min-height: 100vh;
-  width: 1000px;
+  width: 50vw;
   min-width: 50%;
   display: inline-block;
   background-color: #2b3f49;
@@ -44,6 +40,7 @@
 }
 
 .introTitle {
+  width: 100%;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
@@ -51,6 +48,7 @@
 }
 
 .introName {
+  width: 100%;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 100px;
@@ -59,6 +57,7 @@
 }
 
 .introDescription {
+  width: 100%;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 70px;
@@ -71,6 +70,7 @@
 }
 
 .introText {
+  width: 50%;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 16px;

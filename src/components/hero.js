@@ -4,6 +4,7 @@ import About from "./about";
 import Projects from "./projects";
 import Contact from "./contact";
 import Nav from "./nav";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Hero = () => {
   return (

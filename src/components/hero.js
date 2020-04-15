@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <Container>
       <Row>
-        <Col lg={10} className="mt">
+        <Col lg={10}>
           <Row>
             <Introduction />
           </Row>

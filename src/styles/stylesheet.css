@@ -8,6 +8,18 @@
   background-color: red;
 }
 
+.green {
+  background-color: green;
+}
+
+.white {
+  color: white;
+}
+
+.margin-left-15 {
+  margin-left: 15px;
+}
+
 .navWrapper {
   background-color: none;
   width: 200px;
@@ -28,6 +40,10 @@
   height: 50px;
   width: 150px;
   margin-top: 24px;
+}
+
+.navButton:hover {
+  color: #b8bdd4;
 }
 
 .heroWrapper {
@@ -76,7 +92,6 @@
 
 .introText {
   margin-top: 50px;
-  margin-left: -15px;
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 15px;
@@ -85,7 +100,6 @@
 
 .introButtonContainer {
   text-align: left;
-  margin-left: -15px;
   margin-top: 50px;
 }
 
@@ -103,12 +117,17 @@
   width: 150px;
 }
 
+.introButton:hover {
+  border-color: red;
+  color: white;
+}
+
 .aboutTitle {
   font-family: "Source Code Pro", monospace;
   text-align: left;
   font-size: 30px;
-  width: 100%;
   color: red;
+  line-height: 80px;
 }
 
 .aboutInformationContainer {
@@ -121,8 +140,6 @@
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 16px;
-  width: 50%;
-  height: 100%;
   display: inline-block;
   color: #a0a0a0;
 }

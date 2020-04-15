@@ -1,23 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
-.red {
-  background-color: red;
-}
-.green {
-  background-color: green;
-}
-
 .margin-top-27vh {
   margin-top: 27vh;
+}
+
+.red {
+  background-color: red;
 }
 
 .navWrapper {
   background-color: none;
   width: 200px;
   height: 400px;
-  margin-left: 55vw;
   position: fixed;
-  margin-top: 27vh;
   border: 2px solid;
   border-color: red;
 }

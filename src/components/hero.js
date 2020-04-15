@@ -9,21 +9,25 @@ import { Container, Row, Col } from "react-bootstrap";
 const Hero = () => {
   return (
     <Container>
-      <Nav />
-      <Col>
-        <Row>
-          <Introduction />
-        </Row>
-        <Row>
-          <About />
-        </Row>
-        <Row>
-          <Projects />
-        </Row>
-        <Row>
-          <Contact />
-        </Row>
-      </Col>
+      <Row>
+        <Col lg={10} className="mt">
+          <Row>
+            <Introduction />
+          </Row>
+          <Row>
+            <About />
+          </Row>
+          <Row>
+            <Projects />
+          </Row>
+          <Row>
+            <Contact />
+          </Row>
+        </Col>
+        <Col lg={2}>
+          <Nav />
+        </Col>
+      </Row>
     </Container>
   );
 };

@@ -1,31 +1,31 @@
 import React from "react";
-import { Navbar, NavDropdown, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 const navBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar
+      collapseOnSelect
+      fixed="top"
+      expand="lg"
+      className="deep-turqoiuse"
+      variant="light"
+    >
+      <Navbar.Brand href="#home"></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
+        <Nav className="mr-auto"></Nav>
         <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
+          <Nav.Link href="#deets">
+            <p className="navText">About</p>
+          </Nav.Link>
           <Nav.Link eventKey={2} href="#memes">
-            Dank memes
+            <p className="navText">Projects</p>
+          </Nav.Link>
+          <Nav.Link eventKey={2} href="#memes">
+            <p className="navText">Contact</p>
+          </Nav.Link>
+          <Nav.Link eventKey={2} href="#memes">
+            <p className="red-text">CV</p>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

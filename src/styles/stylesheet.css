@@ -12,12 +12,24 @@
   background-color: red;
 }
 
+.red-text {
+  color: red;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .green {
   background-color: green;
 }
 
 .white {
   color: white;
+}
+
+.deep-turqoiuse {
+  background-color: #2b3f49;
+  opacity: 0.9;
 }
 
 .margin-left-15 {
@@ -52,6 +64,12 @@
 
 .navButton:hover {
   color: #b8bdd4;
+}
+
+.navText {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
 }
 
 .heroWrapper {

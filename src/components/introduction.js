@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const introduction = () => {
   return (
-    <Container className="margin-top-27vh">
+    <Container>
       <Row>
         <Col className="margin-left-15">
-          <Row className="introTitle">The name is</Row>
+          <Row className="introTitle margin-top-intro">The name is</Row>
           <Row className="introName">Anson Kwan.</Row>
           <Row className="introDescription">I like coding things.</Row>
         </Col>

@@ -4,6 +4,10 @@
   margin-top: 27vh;
 }
 
+.margin-top-intro {
+  margin-top: calc((100vh - 469.2px) / 2);
+}
+
 .red {
   background-color: red;
 }
@@ -20,9 +24,13 @@
   margin-left: 15px;
 }
 
+.min-height-100vh {
+  min-height: 100vh;
+}
+
 .navWrapper {
   background-color: none;
-  width: 200px;
+  width: 160px;
   height: 400px;
   position: fixed;
   border: 2px solid;

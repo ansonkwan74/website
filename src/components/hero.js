@@ -3,15 +3,15 @@ import Introduction from "./introduction";
 import About from "./about";
 import Projects from "./projects";
 import Contact from "./contact";
-import Nav from "./nav";
 import { Container, Row, Col } from "react-bootstrap";
+import "../styles/stylesheet.css";
 
 const Hero = () => {
   return (
     <Container>
       <Row>
-        <Col lg={10}>
-          <Row>
+        <Col lg={11}>
+          <Row className="min-height-100vh">
             <Introduction />
           </Row>
           <Row>
@@ -23,9 +23,6 @@ const Hero = () => {
           <Row>
             <Contact />
           </Row>
-        </Col>
-        <Col lg={2}>
-          <Nav />
         </Col>
       </Row>
     </Container>

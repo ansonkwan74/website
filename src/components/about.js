@@ -32,7 +32,7 @@ const about = () => {
               <br></br>> C
             </Row>
           </Col>
-          <Col md={5} md={5}>
+          <Col md={5}>
             <button></button>
           </Col>
         </Row>

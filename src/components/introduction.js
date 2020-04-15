@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const introduction = () => {
   return (
-    <Container className="padding-top-150">
+    <Container className="margin-top-27vh">
       <Row>
         <Col className="margin-left-15">
           <Row className="introTitle">The name is</Row>

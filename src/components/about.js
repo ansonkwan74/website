@@ -22,7 +22,8 @@ const about = () => {
               <br></br>
               <br></br>I am constantly in search of a meaningful avenue to
               express my skills.
-              <br></br>
+            </Row>
+            <Row className="aboutText">
               <br></br>> JavaScript
               <br></br>> HTML & CSS
               <br></br>> React
@@ -31,7 +32,7 @@ const about = () => {
               <br></br>> C
             </Row>
           </Col>
-          <Col md={5}>
+          <Col md={5} md={5}>
             <button></button>
           </Col>
         </Row>

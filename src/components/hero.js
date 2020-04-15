@@ -4,16 +4,27 @@ import About from "./about";
 import Projects from "./projects";
 import Contact from "./contact";
 import Nav from "./nav";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Hero = () => {
   return (
-    <div className="heroWrapper">
+    <Container>
       <Nav />
-      <Introduction />
-      <About />
-      <Projects />
-      <Contact />
-    </div>
+      <Col>
+        <Row>
+          <Introduction />
+        </Row>
+        <Row>
+          <About />
+        </Row>
+        <Row>
+          <Projects />
+        </Row>
+        <Row>
+          <Contact />
+        </Row>
+      </Col>
+    </Container>
   );
 };
 

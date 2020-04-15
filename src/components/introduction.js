@@ -5,7 +5,7 @@ const introduction = () => {
   return (
     <Container className="margin-top-27vh">
       <Row>
-        <Col className="margin-left-15">
+        <Col>
           <Row className="introTitle">The name is</Row>
           <Row className="introName">Anson Kwan.</Row>
           <Row className="introDescription">I like coding things.</Row>

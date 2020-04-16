@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
-.margin-top-27vh {
-  margin-top: 27vh;
+.margin-top-50px {
+  margin-top: 50px;
 }
 
 .margin-top-intro {
@@ -10,6 +10,19 @@
 
 .red {
   background-color: red;
+}
+
+.red-highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.uoa-highlight {
+  color: #0098c3;
+}
+
+.usyd-highlight {
+  color: orange;
 }
 
 .red-text {
@@ -27,9 +40,15 @@
   color: white;
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #b8bdd4;
+}
+
 .deep-turqoiuse {
   background-color: #2b3f49;
-  opacity: 0.9;
+  opacity: 0.97;
 }
 
 .margin-left-15 {
@@ -89,7 +108,7 @@
   text-align: left;
   font-family: "Source Code Pro", monospace;
   font-size: 15px;
-  color: #a0a0a0;
+  color: #cccccc;
 }
 
 .introButtonContainer {
@@ -103,7 +122,7 @@
   position: relative;
   background-color: transparent;
   outline: none;
-  border: 1px solid white;
+  border: 2px solid white;
   color: white;
   font-size: 20px;
   font-family: "Source Code Pro", monospace;
@@ -114,8 +133,8 @@
   content: "";
   height: 0;
   width: 0;
-  bottom: -1px;
-  left: -1px;
+  bottom: -2px;
+  left: -2px;
   box-sizing: border-box;
 }
 
@@ -124,35 +143,36 @@
   content: "";
   height: 0;
   width: 0;
-  top: -1px;
-  right: -1px;
+  top: -2px;
+  right: -2px;
   box-sizing: border-box;
 }
 
 .introButton:hover:before {
   height: 50px;
   width: 150px;
-  border: 1px solid red;
+  border: 2px solid red;
   border-right: none;
   border-bottom: none;
-  transition: height 0.2s linear, width 0.2s linear 0.2s;
+  transition: height 0.1s linear, width 0.1s linear 0.1s;
 }
 
 .introButton:hover:after {
   height: 50px;
   width: 150px;
-  border: 1px solid red;
+  border: 2px solid red;
   border-left: none;
   border-top: none;
-  transition: height 0.2s linear, width 0.2s linear 0.2s;
+  transition: height 0.1s linear, width 0.1s linear 0.1s;
 }
 
 .aboutTitle {
   font-family: "Source Code Pro", monospace;
   text-align: left;
   font-size: 30px;
-  color: red;
+  color: white;
   line-height: 80px;
+  line-height: 60px;
 }
 
 .aboutInformationContainer {
@@ -166,7 +186,7 @@
   font-family: "Source Code Pro", monospace;
   font-size: 16px;
   display: inline-block;
-  color: #a0a0a0;
+  color: #cccccc;
 }
 
 .aboutPhoto {

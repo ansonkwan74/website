@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const about = () => {
   return (
-    <Container className="margin-top-27vh">
+    <Container>
       <Col>
         <Row className="aboutTitle">More on Me</Row>
         <Row>

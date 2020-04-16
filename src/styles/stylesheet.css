@@ -40,38 +40,6 @@
   min-height: 100vh;
 }
 
-.navWrapper {
-  background-color: none;
-  width: 160px;
-  height: 400px;
-  position: fixed;
-  border: 2px solid;
-  border-color: red;
-}
-
-.navButton {
-  text-decoration: none;
-  border: none;
-  background-color: #2b3f49;
-  color: white;
-  text-align: left;
-  font-family: "Source Code Pro", monospace;
-  font-size: 20px;
-  height: 50px;
-  width: 150px;
-  margin-top: 24px;
-}
-
-.navButton:hover {
-  color: #b8bdd4;
-}
-
-.navText {
-  color: white;
-  font-family: "Source Code Pro", monospace;
-  font-size: 20px;
-}
-
 .heroWrapper {
   min-height: 100vh;
   width: 50vw;
@@ -130,22 +98,53 @@
 }
 
 .introButton {
-  text-decoration: none;
-  border: none;
-  background-color: #2b3f49;
-  color: white;
-  text-align: center;
-  font-family: "Source Code Pro", monospace;
-  border: 2px solid;
-  border-color: white;
-  font-size: 20px;
   height: 50px;
   width: 150px;
+  position: relative;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  font-family: "Source Code Pro", monospace;
 }
 
-.introButton:hover {
-  border-color: red;
-  color: white;
+.introButton:before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  bottom: -1px;
+  left: -1px;
+  box-sizing: border-box;
+}
+
+.introButton:after {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: -1px;
+  right: -1px;
+  box-sizing: border-box;
+}
+
+.introButton:hover:before {
+  height: 50px;
+  width: 150px;
+  border: 1px solid red;
+  border-right: none;
+  border-bottom: none;
+  transition: height 0.2s linear, width 0.2s linear 0.2s;
+}
+
+.introButton:hover:after {
+  height: 50px;
+  width: 150px;
+  border: 1px solid red;
+  border-left: none;
+  border-top: none;
+  transition: height 0.2s linear, width 0.2s linear 0.2s;
 }
 
 .aboutTitle {

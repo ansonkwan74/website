@@ -12,12 +12,11 @@
 
 .projectInfoContainer {
   height: auto;
-  margin-top: 35px;
-  position: relative;
+  margin-top: 15px;
 }
 
-.projectInfoWrap {
-  background-color: #22666f;
+.colour2 {
+  background-color: #354a54;
 }
 
 .projectTitle {
@@ -25,8 +24,7 @@
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
   text-align: right;
-  display: block;
-  background-color: red;
+  direction: rtl;
 }
 
 .projectDescription {
@@ -34,15 +32,17 @@
   font-family: "Source Code Pro", monospace;
   font-size: 15px;
   text-align: left;
-  margin-top: 3%;
+  margin-top: 2%;
+  border: 20px solid transparent;
 }
 
 .projectTech {
   color: white;
   font-family: "Source Code Pro", monospace;
   font-size: 15px;
-  text-align: left;
-  margin-top: 3%;
+  text-align: right;
+  margin-top: 2%;
+  direction: rtl;
 }
 
 .projectLinks {
@@ -50,5 +50,6 @@
   font-family: "Source Code Pro", monospace;
   font-size: 15px;
   text-align: left;
-  margin-top: 3%;
+  margin-top: 4%;
+  direction: rtl;
 }

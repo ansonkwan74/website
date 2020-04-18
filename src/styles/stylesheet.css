@@ -51,6 +51,11 @@
   opacity: 0.97;
 }
 
+.projectInfoWrap {
+  background-color: #22666f;
+  border-left: 35px solid transparent;
+}
+
 .margin-left-15 {
   margin-left: 15px;
 }

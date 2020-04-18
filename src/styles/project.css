@@ -1,8 +1,54 @@
+.projectImageContainer {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  position: absolute;
+}
+
 .projectImage {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.projectInfoContainer {
+  height: auto;
+  margin-top: 35px;
+  position: relative;
+}
+
+.projectInfoWrap {
+  background-color: #22666f;
 }
 
 .projectTitle {
-  height: 15%;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  text-align: right;
+  display: block;
+  background-color: red;
+}
+
+.projectDescription {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 3%;
+}
+
+.projectTech {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 3%;
+}
+
+.projectLinks {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 3%;
 }

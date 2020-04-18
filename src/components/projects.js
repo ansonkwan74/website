@@ -5,15 +5,27 @@ import "../styles/project.css";
 const projects = () => {
   return (
     <Container>
-      <Row>
-        <Col lg={7} className="red">
+      <Row className="projectImageContainer">
+        <Col md={7} className=" ">
           <img
             className="projectImage"
-            src="https://scontent.fakl2-1.fna.fbcdn.net/v/t1.0-9/36585535_10213408690071893_5510323120986128384_n.jpg?_nc_cat=107&_nc_sid=ad2b24&_nc_ohc=ifkpziJbYCgAX8zsOM6&_nc_ht=scontent.fakl2-1.fna&oh=13ec3c74c0f6d522ab93a91fabf8fee2&oe=5EBC9D0F"
+            alt="placeholder"
+            src="https://images.unsplash.com/photo-1556924784-f02bd5b5b094?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
           />
         </Col>
-        <Col lg={5} className="green">
-          <Row className="projectTitle red">project title</Row>
+      </Row>
+      <Row className="projectInfoContainer">
+        <Col xs={{ span: 6, offset: 6 }} className="projectInfoWrap">
+          <Row className="projectTitle ">Project Title</Row>
+          <Row className="projectDescription ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit.
+          </Row>
+          <Row className="projectTech ">React JavaScript HTML CSS Firebase</Row>
+          <Row className="projectLinks ">tech</Row>
         </Col>
       </Row>
     </Container>

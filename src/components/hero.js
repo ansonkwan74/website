@@ -17,7 +17,7 @@ const Hero = () => {
           <Row>
             <About />
           </Row>
-          <Row>
+          <Row className="margin-top-intro">
             <Projects />
           </Row>
           <Row>
